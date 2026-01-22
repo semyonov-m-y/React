@@ -2,8 +2,6 @@
 
 A comprehensive financial dashboard application built with React TypeScript frontend and Node.js Express backend for real-time currency tracking, market analytics, and user management.
 
-![Dashboard Preview](https://via.placeholder.com/800x400/3498db/ffffff?text=Financial+Dashboard)
-
 ## 🌟 Features
 
 ### 🔐 Authentication & Authorization
@@ -66,4 +64,5 @@ A comprehensive financial dashboard application built with React TypeScript fron
 1. **Clone the repository**
 ```bash
 git clone <repository-url>
+
 cd financial-dashboard
