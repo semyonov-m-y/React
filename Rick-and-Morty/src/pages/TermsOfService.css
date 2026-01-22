@@ -1,0 +1,39 @@
+.terms-page {
+  background: white;
+  color: black;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.terms-content {
+  line-height: 1.6;
+}
+
+.terms-section {
+  margin-bottom: 2rem;
+}
+
+.terms-list {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.terms-list li {
+  margin-bottom: 0.5rem;
+}
+
+.terms-date {
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .terms-page {
+    padding: 1rem;
+  }
+
+  .terms-list {
+    margin-left: 1rem;
+  }
+}

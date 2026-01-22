@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "username": "vita",
+    "email": "vita@mail.ru",
+    "passwordHash": "$2a$10$oJkP6wrRLyIsFgbRTd7GEOMM9.CKUMrfWF5NaD7Ntel35pqq.mJrO",
+    "createdAt": "2025-09-24T18:12:47.417Z"
+  },
+  {
+    "id": 2,
+    "username": "lena",
+    "email": "lena@gmail.com",
+    "passwordHash": "$2a$10$./7lfxpMZ7fAYqKEKPp8v.Q.n.P8s.EpWKD2t94k48fFAlvIFBwkK",
+    "createdAt": "2025-09-25T18:16:36.614Z"
+  },
+  {
+    "id": 3,
+    "username": "anna",
+    "email": "anna@mail.ru",
+    "passwordHash": "$2a$10$ekwCeubNSkJc/1OejjTwLuIPnAF8Qc23pv4IvodtDEBVn1ZzyX57G",
+    "createdAt": "2025-09-25T18:39:14.156Z"
+  }
+]

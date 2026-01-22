@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "1",
+    "body": "2",
+    "url": "https://i.pinimg.com/736x/ff/1b/bf/ff1bbffc7465d6799b47f1686a424d86.jpg",
+    "rate": 5,
+    "createdAt": "2025-09-25T18:15:43.759Z",
+    "userId": 1
+  },
+  {
+    "id": 2,
+    "title": "2",
+    "body": "3",
+    "url": "https://image.winudf.com/v2/image/bW9iaS5hbmRyb2FwcC5wcm9zcGVyaXR5YXBwcy5jNTExMV9zY3JlZW5fN18xNTI0MDQxMDUwXzAyMQ/screen-7.jpg?fakeurl=1&type=.jpg",
+    "rate": 5,
+    "userId": 1,
+    "createdAt": "2025-09-25T18:38:32.464Z"
+  }
+]

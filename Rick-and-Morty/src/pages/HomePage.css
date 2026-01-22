@@ -1,0 +1,36 @@
+/* Secret admin button */
+.secret-admin-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.secret-admin-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: rotate(45deg);
+}
+
+/* Admin access panel */
+.admin-access {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.admin-access h3 {
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.admin-access label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
