@@ -1,0 +1,94 @@
+:root {
+  --bg-color: #f5f7fa;
+  --bg-secondary: #e9ecef;
+  --text-color: #2c3e50;
+  --text-secondary: #6c757d;
+  --primary-color: #3498db;
+  --secondary-color: #6c757d;
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+  --warning-color: #f1c40f;
+  --info-color: #3498db;
+
+  --sidebar-bg: linear-gradient(180deg, #2c3e50, #1a2a3a);
+  --sidebar-text: white;
+  --card-bg: white;
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  --border-color: #e0e0e0;
+  --header-border: #e0e0e0;
+  --widget-bg: white;
+  --input-bg: white;
+  --input-border: #e0e0e0;
+  --button-bg: #3498db;
+  --button-hover: #2980b9;
+  --button-text: white;
+  --hover-bg: rgba(255,255,255,0.1);
+}
+
+[data-theme='dark'] {
+  --bg-color: #1a2a3a;
+  --bg-secondary: #2c3e50;
+  --text-color: #f5f7fa;
+  --text-secondary: #a0aec0;
+  --primary-color: #3498db;
+  --secondary-color: #a0aec0;
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+  --warning-color: #f1c40f;
+  --info-color: #3498db;
+
+  --sidebar-bg: linear-gradient(180deg, #1a2a3a, #0d1a26);
+  --sidebar-text: #f5f7fa;
+  --card-bg: #2c3e50;
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  --border-color: #34495e;
+  --header-border: #34495e;
+  --widget-bg: #2c3e50;
+  --input-bg: #2c3e50;
+  --input-border: #34495e;
+  --button-bg: #2980b9;
+  --button-hover: #1d6fa5;
+  --button-text: white;
+  --hover-bg: rgba(255,255,255,0.05);
+}
+
+/* Стили для recharts в темной теме */
+[data-theme='dark'] .recharts-cartesian-grid-horizontal line,
+[data-theme='dark'] .recharts-cartesian-grid-vertical line {
+  stroke: #34495e;
+}
+
+[data-theme='dark'] .recharts-text {
+  fill: #f5f7fa;
+}
+
+[data-theme='dark'] .recharts-tooltip-wrapper {
+  background-color: #2c3e50;
+  border: 1px solid #34495e;
+}
+
+[data-theme='dark'] .recharts-tooltip-label {
+  color: #f5f7fa;
+}
+
+[data-theme='dark'] .recharts-legend-item-text {
+  color: #f5f7fa !important;
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+  border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: var(--text-secondary);
+  border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background: var(--text-color);
+}
